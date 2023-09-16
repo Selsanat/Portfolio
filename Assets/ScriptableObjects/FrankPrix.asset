@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3c908ceee6bf648b1dc96cc66eb7d8, type: 3}
+  m_Name: FrankPrix
+  m_EditorClassIdentifier: 
+  m_jeu: 1
+  m_gameName: FrankPrix
+  m_Periode: -September 2022
+  m_isOnPC: 1
+  m_length: 4 days
+  m_numberOfPeopleInvolved: 10
+  m_UnityUsed: 1
+  m_miscDesc: 3D | Third Person - Beat'emA All | PS2 Themed
+  m_VideoClip: 06 - 2023-02-01 01-34-37 (online-video-cutter.com).mp4
+  m_linkWeb: https://brooklynbenites.wixsite.com/leandro-benites/frank-prie

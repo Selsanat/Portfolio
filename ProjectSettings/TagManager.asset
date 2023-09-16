@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SwordHitbox
+  - StopRun
+  - Game
   layers:
   - Default
   - TransparentFX
@@ -35,9 +38,12 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Pixelation
+  - RetroScreen
   m_SortingLayers:
+  - name: UI
+    uniqueID: 127651627
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
