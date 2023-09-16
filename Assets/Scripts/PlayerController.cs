@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public PlayerControls PlayerControls;
+    public InputActionAsset PlayerControls;
     private InputAction IAmove;
     private InputAction IAattack;
     private Vector2 moveDirection = Vector2.zero;
@@ -25,14 +25,14 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
-        PlayerControls = new PlayerControls();
+        PlayerControls = this.GetComponent<PlayerInput>().actions;
     }
 
     private void OnEnable()
     {
-        IAmove = PlayerControls.Player.Move;
+        IAmove = PlayerControls.actionMaps[0].actions[0];
         IAmove.Enable();
-        IAattack = PlayerControls.Player.Attack;
+        IAattack = PlayerControls.actionMaps[0].actions[1];
         IAattack.Enable();
         IAattack.performed += Attack; 
     }
